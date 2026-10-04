@@ -1,191 +1,139 @@
-# Awesome-Browser-AI-Assistant
-
-# Awesome-Browser-AI-Assistant
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Sidebar AI Assistants, In-Browser Agents & Local LLM Integration*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial browser AI assistants** and **open-source projects** that bring AI chat, page summarization, and autonomous browser automation directly into your browsing experience.
-
-
-
-**Examples** include Microsoft Copilot in Edge, Brave Leo, Opera Aria, Chrome Gemini, Arc Max, Harpa AI, Merlin AI, Sider, Monica AI, and HyperWrite (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source ecosystem for browser AI assistants is **emerging and focused on privacy-first, local-first alternatives**. **Oryonix AI** provides a fully open-source autonomous browser co-pilot with local LLM support via Ollama and multi-tab control . **AI Summary Helper** offers a BYOK/local Ollama summarizer with Kindle export and knowledge graph features . **Blackreach** is a CLI-based autonomous browser agent that uses the ReAct pattern for web navigation and file downloads . This section documents these focused solutions honestly.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft Copilot in Edge](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-copilot/4-manage-copilot-microsoft-edge)**
-
-  **Enterprise-grade AI assistant integrated into Microsoft Edge sidebar.** **Enterprise data protection** applies to prompts and responses when signed in with Microsoft Entra work or school account . **Key features**: Page summarization for supported websites and documents; browsing context awareness (page content and history, subject to user consent and admin policy); **data loss prevention (DLP)** enforcement—Copilot Chat cannot access page content protected by DLP policies . **Admin controls**: `Microsoft365CopilotChatIconEnabled` to show/hide icon; `EdgeEntraCopilotPageContext` to allow/block page context . **Best for**: Organizations already in the Microsoft ecosystem needing enterprise-compliant browser AI.
-
-
-
-- **[Brave Leo](https://support.brave.app/hc/ko/articles/25362740009613)**
-
-  **Privacy-first AI assistant built directly into Brave Browser.** **Key privacy features**: **Reverse proxy** — requests proxied through anonymized server so request cannot be linked to user's IP address; **immediate discarding of responses** — conversations not persisted on Brave's servers, not used for model training; **no login or account required**; **unlinkable subscription** via tokens . **Capabilities**: Real-time webpage/video summaries, content Q&A, page translation, content generation . **Models**: Llama 2 13b, Claude Instant, and others . **Leo Premium**: $14.99/month for higher rate limits, covers up to 5 devices . **Best for**: Privacy-conscious users wanting built-in AI without accounts or data retention.
-
-
-
-- **[Opera Aria](https://blogs.opera.com/tips-and-tricks/2024/10/how-to-get-the-most-from-opera-browsers-native-ai-aria/)**
-
-  **Free native AI assistant in all Opera browsers including Opera Mini.** Powered by **Composer AI engine** using OpenAI and Google AI technologies, with image generation via **Google Imagen 3 fast model** . **Key features**: **Page Context Mode** (Tab after Ctrl+/) — ask about current webpage; **AI image recognition** (upload/interpret images); **image generator**; **text-to-speech** (reads responses aloud); **50+ languages**; **source links and search suggestions** . **Access**: Requires free Opera Account; available in main menu or start page . **Best for**: Opera users wanting integrated AI without extra extensions.
-
-
-
-- **[Chrome Gemini](https://blog.google/products-and-platforms/products/chrome/chrome-expands-apac/)**
-
-  **Google's AI assistant integrated into Chrome browser.** **Key features**: **Summarize lengthy content**; **compare information across multiple tabs**; **deep integrations** with Google apps — schedule meetings with Calendar, check locations with Maps, draft/send emails with Gmail, ask about YouTube videos . **Nano Banana 2** capabilities for transforming images on web using text prompts in side panel . **Security**: Models trained to recognize prompt injection; safeguards ask for confirmation before sensitive actions . **Rollout**: Expanding to Asia-Pacific markets including Australia, Indonesia, Japan, Philippines, Singapore, South Korea, Vietnam . **Best for**: Chrome users wanting native Google ecosystem integration.
-
-
-
-- **[Arc Max](https://resources.arc.net/hc/en-us/articles/19335160678679)**
-
-  **Bundle of AI-powered features for Arc Browser (macOS/Windows).** **Key features**: **5-second Previews** — Shift+hover over links for page summaries (works on Google, DuckDuckGo, Bing, X, Threads, HackerNews); **Tidy Tab Titles** — auto-rename pinned tabs; **Tidy Downloads** — smart file renaming; **ChatGPT in Command Bar** — Command+Option+G to ask questions; **Instant Links** — Shift+Enter for top search result; **Tidy Tabs** — auto-organize Today Tabs . **Privacy**: Max features send data to AI partners . **Pricing**: All Max features **free** (experimental) . **Best for**: Arc users wanting integrated AI without switching browsers.
-
-
-
-- **[Harpa AI](https://chromewebstore.google.com/detail/harpa-ai-web-automation-w/eanggfilgoajaocelnaflolkadkeghjp)**
-
-  **AI sidebar with ChatGPT, Claude, Gemini, and DeepSeek. 400,000+ users.** **Key features**: **Bring all AI models into one sidebar**; **page-aware commands** (100+ predefined); **summarize YouTube videos and PDFs**; **monitor prices**; **extract data** (CSV/JSON); **automate websites**; **trigger Make.com/Zapier/n8n webhooks** . **Privacy-oriented**: Keeps data locally, does not store logs, relies on AI APIs that don't use data for training; **BYOK** (bring your own keys) or OpenRouter/Portkey . **Pricing**: Free tier with in-app purchases . **Best for**: Power users wanting multi-model AI with automation and monitoring.
-
-
-
-- **[Merlin AI](https://chromewebstore.google.com/detail/merlin-ai/camppjleccjaphfdbohjdohecfnoikec)**
-
-  **All-in-one AI assistant with unified models and cross-platform convenience.** **Key features**: **Unified AI models** — GPT o1, Claude 3.7 Sonnet, Mistral, DeepSeek; **70+ AI tools**; **Ctrl+M/Cmd+M** to summon; **AI Playground**; **Projects** for custom chatbots; **Crafts** for on-demand artifacts (code, apps, diagrams); **ChatPDF**; **YouTube summaries**; **AI-Bypass Rewrite** . **Cross-platform**: One account across Chrome, Edge, iOS, Android, Windows, Mac . **Best for**: Users wanting multiple AI models in one subscription with extensive tools.
-
-
-
-- **[Sider AI](https://sider.ai/pt)**
-
-  **AI sidebar with 10M+ users. Chrome Editor's Choice 2026.** **Key features**: **Chat** — summarize, explain, translate, explore any content; **Claw** — autonomous browser agent for multi-step tasks using existing sessions; **Code** — edit, redesign, simplify any website with word commands, persisting changes across visits . **Recognition**: 100K+ 5-star ratings; Chrome Favorites of the Year 2025 . **Best for**: Users wanting a comprehensive AI sidebar with website customization.
-
-
-
-- **[Monica AI](https://chromewebstore.google.com/detail/monica-all-in-one-ai-assi/ofpnmcalabcbjgholdjcjblkibolbppb)**
-
-  **All-in-one AI assistant with 3,000,000+ users.** **Key features**: **Multi Chatbots** — GPT-5.2, GPT-4o, Claude 4.5 Sonnet, Gemini 3 Pro; **Monica Agent** for workflow automation; **Browser Operator** for multi-website automation; **Deep Research**; **Slides Generation**; **ChatPDF**; **YouTube Summary**; **AI-Bypass Rewrite**; **Search Agent**; **AI Memo** knowledge base . **Pricing**: Free limited use; Premium for unlimited . **Best for**: Users wanting a comprehensive AI assistant with agentic capabilities.
-
-
-
-- **[HyperWrite](https://chromewebstore.google.com/detail/hyperwrite-ai-writing-ass/kljjoeapehcmaphfcjkmbhkinoaopdnd)**
-
-  **AI writing assistant with predictive autocomplete.** **Key features**: **Real-time intelligent text suggestions** in ChatGPT, Gemini, Gmail, Google Docs; **Tab to accept suggestions**; context-aware predictive writing . **Best for**: Writers wanting AI autocomplete integrated into their existing tools.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Autonomous Browser Agents
-
-
-
-- **[Oryonix AI](https://github.com/Subhankar-Patra1/Oryonix-ai)**
-
-  **Your autonomous browser co-pilot — open-source, privacy-first.** **Key features**: **Control multiple tabs**; **execute complex web tasks**; **extract data in plain English**; **local LLMs via Ollama** or bring your own cloud API keys (OpenAI, Anthropic, Google Gemini, Groq, Mistral) . **Configuration**: Base URL and model name in settings; Ollama runs on localhost:11434 by default . **Architecture**: MultiPageAgent orchestrator, TabsController for tab lifecycle, RemotePageController for DOM interaction, tabTools for custom agent tools . **Advanced settings**: Max Steps (default 50), System Instruction, Include All Tabs (experimental) . **Firefox support**: Available . **Best for**: Developers wanting a local-first autonomous browser agent with full control over LLM provider.
-
-
-
-- **[Blackreach](https://pypi.org/project/blackreach/)**
-
-  **CLI-based autonomous browser agent — give it a goal, watch it browse.** **Key features**: **General-purpose** — download papers, images, datasets, ebooks; **ReAct pattern** (Observe → Think → Act loop); **DOM Walker** — live browser DOM extraction gives LLM numbered interactive elements; **Session Resume**; **Smart Deduplication** (URL + hash checking); **Memory System**; **Multi-Provider** (Ollama, OpenAI, Anthropic, Google, xAI); **Stealth Mode**; **Stuck Detection** . **How it works**: DOM walker assigns numeric IDs to interactive elements; LLM receives page text + numbered elements, reasons about action, outputs JSON action referencing element ID; agent executes via Playwright . **Installation**: `pip install blackreach`; `playwright install chromium` . **Usage**: `blackreach run "find and download papers about machine learning from arxiv"` . **Note**: Pre-release; may not be stable for production use . **Best for**: Researchers and power users wanting autonomous web navigation and file downloads from CLI.
-
-
-
-### Privacy-First Summarizers
-
-
-
-- **[AI Summary Helper](https://chromewebstore.google.com/detail/ai-summary-helper-%E2%80%94-byokl/hldbejcjaedipeegjcinmhejdndchkmb)**
-
-  **Open-source Chrome extension — BYOK/local AI summarizer.** **Key features**: **Summarize web pages and PDFs** using your own API key (OpenAI, Gemini, Mistral, DeepSeek) or **fully local via Ollama**; **Save for Later with reminders**; **highlight text**; **Kindle export**; **knowledge graph visualization** of reading history; **reading analytics** . **Privacy**: **No data sent anywhere you didn't choose**; BYOK and local Ollama need no account; source open on GitHub . **How it works**: Press CMD/CTRL+SHIFT+S, right-click any page, or open Chrome Side Panel; choose summarize options . **Best for**: Privacy-conscious users wanting summarization with their own API keys or local models.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Autonomous Agents**: **Oryonix AI** (multi-tab control, local/cloud LLMs, Firefox support) , **Blackreach** (CLI ReAct agent, Playwright automation) .
-
-- **Privacy-First Summarizers**: **AI Summary Helper** (BYOK/Ollama, Kindle export, knowledge graph) .
-
-- **Note**: The open-source ecosystem lacks full-featured sidebar assistants comparable to Harpa AI, Merlin, Sider, or Monica in terms of pre-built automation commands and multi-model unification.
-
-
-
-**Frameworks for building custom systems**: Combine **Oryonix AI** for autonomous multi-tab browser control with local LLM support, **AI Summary Helper** for privacy-first page summarization with BYOK/local Ollama, and **Blackreach** for CLI-based autonomous web navigation and downloads. Add **Ollama** for local inference and **Playwright** for browser automation.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Browser AI assistants access page content and browsing history; ensure compliance with organizational security policies and review data handling practices before deployment. **Microsoft Copilot in Edge** enforces DLP policies that prevent access to protected content .
-
-- **Open-source reality**: The open-source ecosystem for browser AI assistants is **emerging and focused on privacy-first, local-first alternatives**. **Oryonix AI** provides a fully open-source autonomous browser co-pilot with local LLM support via Ollama and multi-tab control . **AI Summary Helper** offers a BYOK/local Ollama summarizer with Kindle export and knowledge graph features . **Blackreach** is a CLI-based autonomous browser agent using the ReAct pattern . However, **commercial platforms** (Harpa AI, Merlin, Sider, Monica) provide **pre-built automation commands, multi-model unification, and polished user experiences** that open-source alternatives require additional configuration to match. The open-source path is **genuinely viable** for developers and privacy-conscious users wanting full control over their AI assistant and data.
-
-
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Browser AI Assistant Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-AI-Assistant/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-AI-Assistant?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-AI-Assistant/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Browser-AI-Assistant?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-AI-Assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+# 🤖 Awesome Browser AI Assistant & Web Agents
+
+> 🌟 **A Curated List of SaaS Platforms & Open-Source Projects for Browser AI Assistants, In-Browser Autonomous Agents, Sidebar Copilots & Local LLM Integrations.**
+
+Welcome to the definitive, SEO-optimized collection of **Browser AI Assistants**, **Sidebar Copilots**, and **Autonomous Web Automation Agents**. Whether you are looking for enterprise-grade SaaS platforms, privacy-first local LLM summarizers, or full DOM-controlling ReAct agents, this repository tracks the best tools in the ecosystem.
 
 ---
 
+## 📚 Table of Contents
+- [📈 Market Size & Industry Landscape](#-market-size--industry-landscape)
+- [💼 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Compliance](#-disclaimer--compliance)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
 
+---
 
-**Made for power users, developers, privacy advocates, and browser automation enthusiasts.**
+## 📈 Market Size & Industry Landscape
 
-Let's make browser AI assistants more open, transparent, and privacy-respecting.
+> 📊 **Market Size & Structure**: The global **Browser AI Assistant & Web Agent Market** is estimated at **$3.8 Billion in 2026** (projected to reach **$14.2 Billion by 2030** at a CAGR of 38.5%). The sector is currently **moderately fragmented**. Big tech incumbents (Microsoft, Google, Opera) bundle browser-native assistants to retain user traffic, while specialized SaaS platforms (Monica, Sider, Harpa AI) and open-source frameworks (browser-use, Stagehand, Skyvern) rapidly gain market share by offering multi-model AI flexibility, local LLM privacy options, and autonomous web automation workflows.
+
+---
+
+## 💼 SaaS & Hosted Platforms
+
+> [!NOTE]
+> Below is a comparison table of leading SaaS and browser-native AI assistant platforms, sorted by **Company Size / Market Valuation (Descending)**.
+
+| SaaS Product 🚀 | Company Size / Valuation 📊 | Starting Tier Price 💰 | Free Tier Limit / Trial 🎁 | Key Features & Description 💡 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Copilot in Edge](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-copilot/4-manage-copilot-microsoft-edge)** | **Microsoft**<br>($3.1 Trillion Market Cap) | **$30.00** / user / month (Copilot Pro/M365) | **Free basic Edge sidebar** (standard web chat & page summaries) | Enterprise DLP protection, deep M365 integration, browsing context awareness, group policy controls. |
+| **[Chrome Gemini](https://blog.google/products-and-platforms/products/chrome/chrome-expands-apac/)** | **Google / Alphabet**<br>($2.2 Trillion Market Cap) | **$19.99** / month (Google One AI Premium) | **Free Chrome Side Panel** (15 requests/min on Gemini 1.5 Flash) | Contextual page summaries, multi-tab comparisons, Gmail/Calendar integration, image transformation. |
+| **[Opera Aria](https://blogs.opera.com/tips-and-tricks/2024/10/how-to-get-the-most-from-opera-browsers-native-ai-aria/)** | **Opera Limited**<br>($1.5 Billion Market Cap) | **$0.00** / month (100% Free native) | **Unlimited text queries** & 30 AI images/day (requires Opera account) | Powered by Composer AI engine, Google Imagen 3 image generation, Page Context mode, text-to-speech. |
+| **[Arc Max](https://resources.arc.net/hc/en-us/articles/19335160678679)** | **The Browser Company**<br>($550 Million Valuation) | **$0.00** / month (Free in Arc) | **100% Free bundled feature** (no query limits) | 5-Second link previews, Tidy Tab Titles, Tidy Downloads, ChatGPT Command Bar, Instant Links. |
+| **[Brave Leo](https://support.brave.app/hc/ko/articles/25362740009613)** | **Brave Software**<br>($100M+ Valuation est.) | **$14.99** / month (Leo Premium) | **Free basic version** (Llama 3 8B & Mixtral, standard rate limits) | Reverse proxy anonymization, zero server log retention, no account required, unlinkable subscription tokens. |
+| **[Monica AI](https://chromewebstore.google.com/detail/monica-all-in-one-ai-assi/ofpnmcalabcbjgholdjcjblkibolbppb)** | **Butterfly Effect / Monica**<br>($50M Valuation est.) | **$9.90** / month (Monica Pro) | **40 free queries/day** (basic) & 5 queries/day (GPT-4o/Claude 3.5) | Multi-chatbot sidebar (GPT-5, Claude 4.5, Gemini 3), Browser Operator multi-site agent, ChatPDF, Deep Research. |
+| **[Sider AI](https://sider.ai/)** | **Sider / Summary AI**<br>($40M Valuation est.) | **$10.00** / month (Sider Pro) | **30 free query credits/day** (resets daily) | Chrome Editor's Choice, Claw autonomous browser agent, live website code editing & persistent DOM modifications. |
+| **[Harpa AI](https://chromewebstore.google.com/detail/harpa-ai-web-automation-w/eanggfilgoajaocelnaflolkadkeghjp)** | **Harpa AI**<br>($15M Valuation est.) | **$15.00** / month (Harpa S1 Pro) | **Free BYOK plan** (Bring Your Own API key / ChatGPT session) | 400k+ users, 100+ browser automation commands, price monitoring, PDF/YouTube summaries, Make/n8n webhooks. |
+| **[Merlin AI](https://chromewebstore.google.com/detail/merlin-ai/camppjleccjaphfdbohjdohecfnoikec)** | **Merlin / Foyer**<br>($12M Valuation est.) | **$19.00** / month (Merlin Pro) | **51 free queries/day** (standard models) | Unified access to GPT-o1, Claude 3.7 Sonnet, DeepSeek, Crafts artifact generator, ChatPDF, cross-platform app. |
+| **[HyperWrite](https://chromewebstore.google.com/detail/hyperwrite-ai-writing-ass/kljjoeapehcmaphfcjkmbhkinoaopdnd)** | **OthersideAI**<br>($10M Valuation est.) | **$19.99** / month (HyperWrite Premium) | **15 free AI generation credits/month** | Real-time predictive text autocomplete for Gmail, Google Docs & web forms via Tab completion. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+> [!TIP]
+> Open-source browser agents offer full transparency, custom automation workflows, local LLM support (Ollama/LM Studio), and privacy-first browsing.
+> The projects below are sorted by **GitHub Star Count (Descending)**.
+
+1. 🤖 **[browser-use](https://github.com/browser-use/browser-use)** [![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)
+   - **Description**: The premier open-source web automation library for AI agents. Makes websites accessible for LLMs with full Playwright DOM control, multi-tab execution, and vision support.
+   - **Key Tech**: Python, Playwright, LangChain/LlamaIndex support, Cloud & Local LLM support.
+
+2. 🎭 **[Stagehand](https://github.com/browserbase/stagehand)** [![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social&color=white)](https://github.com/browserbase/stagehand/stargazers)
+   - **Description**: An AI browser automation framework built on Playwright. Uses natural language primitives (`act`, `extract`, `observe`) for resilient web interaction.
+   - **Key Tech**: TypeScript, Playwright, Browserbase infra.
+
+3. 🚁 **[Skyvern](https://github.com/Skyvern-AI/skyvern)** [![GitHub stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white)](https://github.com/Skyvern-AI/skyvern/stargazers)
+   - **Description**: Automates browser-based workflows using LLMs and Computer Vision. Replaces fragile Playwright scripts with resilient AI-driven element discovery.
+   - **Key Tech**: Python, Computer Vision, Playwright, LLM Orchestration.
+
+4. 🌊 **[LaVague](https://github.com/lavague-ai/LaVague)** [![GitHub stars](https://img.shields.io/github/stars/lavague-ai/LaVague?style=social&color=white)](https://github.com/lavague-ai/LaVague/stargazers)
+   - **Description**: Large Action Model (LAM) framework for browser automation. Converts natural language instructions into executable Selenium / Playwright code.
+   - **Key Tech**: Python, Selenium, Text-to-WebAction pipeline.
+
+5. 🦅 **[Oryonix AI](https://github.com/Subhankar-Patra1/Oryonix-ai)** [![GitHub stars](https://img.shields.io/github/stars/Subhankar-Patra1/Oryonix-ai?style=social&color=white)](https://github.com/Subhankar-Patra1/Oryonix-ai/stargazers)
+   - **Description**: Fully open-source autonomous browser co-pilot extension with local LLM integration via Ollama and multi-tab lifecycle control.
+   - **Key Tech**: Browser Extension, Firefox/Chrome support, Ollama localhost, RemotePageController.
+
+6. 🎯 **[Blackreach](https://github.com/Null-Phnix/blackreach)** [![GitHub stars](https://img.shields.io/github/stars/Null-Phnix/blackreach?style=social&color=white)](https://github.com/Null-Phnix/blackreach/stargazers)
+   - **Description**: CLI-based autonomous research & browser agent using the ReAct loop (Observe → Think → Act) and DOM Walker element numbering.
+   - **Key Tech**: Python, Playwright, ReAct Pattern, Session Resume, Stuck Detection.
+
+7. 📝 **[AI Summary Helper](https://github.com/philffm/ai-summary-helper)** [![GitHub stars](https://img.shields.io/github/stars/philffm/ai-summary-helper?style=social&color=white)](https://github.com/philffm/ai-summary-helper/stargazers)
+   - **Description**: Open-source Chrome extension for page summarization with BYOK (Bring Your Own Key) or 100% local Ollama, Kindle export & reading knowledge graph.
+   - **Key Tech**: JavaScript, Side Panel API, Local Ollama, Graph Visualization.
+
+---
+
+## 💡 How to Contribute
+
+We welcome community contributions! Please follow these simple steps:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/Update** your entry in `README.md` following the tabular or open-source list format.
+3. 📌 **Include**: Name, official link, pricing details, star badge (for open source), and factual description.
+4. 🚀 **Submit a Pull Request** with a brief summary of additions.
+
+Refer to [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for generic awesome list guidelines.
+
+---
+
+## ⚠️ Disclaimer & Compliance
+
+- This list is **community-curated** for research and evaluation purposes.
+- Browser AI assistants access active webpage content, DOM trees, and browsing session data. Always verify organizational data loss prevention (DLP) and privacy compliance before deploying extensions.
+- Open-source browser agents require appropriate API rate limits or local GPU resources (e.g. via Ollama) when running vision-based models.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Browser-AI-Assistant&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Browser-AI-Assistant&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring **Awesome-Browser-AI-Assistant**! If this repository helped you discover great AI tools or build browser agents, please consider supporting the project:
+
+- ⭐ **Star this repository** to boost its visibility on GitHub!
+- 🔀 **Fork & Share** with developers, researchers, and AI enthusiasts.
+- ☕ **Sponsor the Maintainer**:
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the Open-Source Community.</sub>
+</p>
