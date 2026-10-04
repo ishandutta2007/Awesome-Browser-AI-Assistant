@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Browser-AI-Assistant/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-AI-Assistant?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Browser-AI-Assistant/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Browser-AI-Assistant?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Browser-AI-Assistant/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Browser-AI-Assistant?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Browser-AI-Assistant/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -59,33 +59,33 @@ Welcome to the definitive, SEO-optimized collection of **Browser AI Assistants**
 
 > [!TIP]
 > Open-source browser agents offer full transparency, custom automation workflows, local LLM support (Ollama/LM Studio), and privacy-first browsing.
-> The projects below are sorted by **GitHub Star Count (Descending)**.
+> The projects below are sorted by **GitHub Stars_Count (Descending)**.
 
-1. 🤖 **[browser-use](https://github.com/browser-use/browser-use)** [![GitHub stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)
+1. 🤖 **[browser-use](https://github.com/browser-use/browser-use)** [![GitHub_Stars](https://img.shields.io/github/stars/browser-use/browser-use?style=social&color=white)](https://github.com/browser-use/browser-use/stargazers)
    - **Description**: The premier open-source web automation library for AI agents. Makes websites accessible for LLMs with full Playwright DOM control, multi-tab execution, and vision support.
    - **Key Tech**: Python, Playwright, LangChain/LlamaIndex support, Cloud & Local LLM support.
 
-2. 🎭 **[Stagehand](https://github.com/browserbase/stagehand)** [![GitHub stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social&color=white)](https://github.com/browserbase/stagehand/stargazers)
+2. 🎭 **[Stagehand](https://github.com/browserbase/stagehand)** [![GitHub_Stars](https://img.shields.io/github/stars/browserbase/stagehand?style=social&color=white)](https://github.com/browserbase/stagehand/stargazers)
    - **Description**: An AI browser automation framework built on Playwright. Uses natural language primitives (`act`, `extract`, `observe`) for resilient web interaction.
    - **Key Tech**: TypeScript, Playwright, Browserbase infra.
 
-3. 🚁 **[Skyvern](https://github.com/Skyvern-AI/skyvern)** [![GitHub stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white)](https://github.com/Skyvern-AI/skyvern/stargazers)
+3. 🚁 **[Skyvern](https://github.com/Skyvern-AI/skyvern)** [![GitHub_Stars](https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=social&color=white)](https://github.com/Skyvern-AI/skyvern/stargazers)
    - **Description**: Automates browser-based workflows using LLMs and Computer Vision. Replaces fragile Playwright scripts with resilient AI-driven element discovery.
    - **Key Tech**: Python, Computer Vision, Playwright, LLM Orchestration.
 
-4. 🌊 **[LaVague](https://github.com/lavague-ai/LaVague)** [![GitHub stars](https://img.shields.io/github/stars/lavague-ai/LaVague?style=social&color=white)](https://github.com/lavague-ai/LaVague/stargazers)
+4. 🌊 **[LaVague](https://github.com/lavague-ai/LaVague)** [![GitHub_Stars](https://img.shields.io/github/stars/lavague-ai/LaVague?style=social&color=white)](https://github.com/lavague-ai/LaVague/stargazers)
    - **Description**: Large Action Model (LAM) framework for browser automation. Converts natural language instructions into executable Selenium / Playwright code.
    - **Key Tech**: Python, Selenium, Text-to-WebAction pipeline.
 
-5. 🦅 **[Oryonix AI](https://github.com/Subhankar-Patra1/Oryonix-ai)** [![GitHub stars](https://img.shields.io/github/stars/Subhankar-Patra1/Oryonix-ai?style=social&color=white)](https://github.com/Subhankar-Patra1/Oryonix-ai/stargazers)
+5. 🦅 **[Oryonix AI](https://github.com/Subhankar-Patra1/Oryonix-ai)** [![GitHub_Stars](https://img.shields.io/github/stars/Subhankar-Patra1/Oryonix-ai?style=social&color=white)](https://github.com/Subhankar-Patra1/Oryonix-ai/stargazers)
    - **Description**: Fully open-source autonomous browser co-pilot extension with local LLM integration via Ollama and multi-tab lifecycle control.
    - **Key Tech**: Browser Extension, Firefox/Chrome support, Ollama localhost, RemotePageController.
 
-6. 🎯 **[Blackreach](https://github.com/Null-Phnix/blackreach)** [![GitHub stars](https://img.shields.io/github/stars/Null-Phnix/blackreach?style=social&color=white)](https://github.com/Null-Phnix/blackreach/stargazers)
+6. 🎯 **[Blackreach](https://github.com/Null-Phnix/blackreach)** [![GitHub_Stars](https://img.shields.io/github/stars/Null-Phnix/blackreach?style=social&color=white)](https://github.com/Null-Phnix/blackreach/stargazers)
    - **Description**: CLI-based autonomous research & browser agent using the ReAct loop (Observe → Think → Act) and DOM Walker element numbering.
    - **Key Tech**: Python, Playwright, ReAct Pattern, Session Resume, Stuck Detection.
 
-7. 📝 **[AI Summary Helper](https://github.com/philffm/ai-summary-helper)** [![GitHub stars](https://img.shields.io/github/stars/philffm/ai-summary-helper?style=social&color=white)](https://github.com/philffm/ai-summary-helper/stargazers)
+7. 📝 **[AI Summary Helper](https://github.com/philffm/ai-summary-helper)** [![GitHub_Stars](https://img.shields.io/github/stars/philffm/ai-summary-helper?style=social&color=white)](https://github.com/philffm/ai-summary-helper/stargazers)
    - **Description**: Open-source Chrome extension for page summarization with BYOK (Bring Your Own Key) or 100% local Ollama, Kindle export & reading knowledge graph.
    - **Key Tech**: JavaScript, Side Panel API, Local Ollama, Graph Visualization.
 
@@ -97,7 +97,7 @@ We welcome community contributions! Please follow these simple steps:
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/Update** your entry in `README.md` following the tabular or open-source list format.
-3. 📌 **Include**: Name, official link, pricing details, star badge (for open source), and factual description.
+3. 📌 **Include**: Name, official link, pricing details, Stars_Badge (for open source), and factual description.
 4. 🚀 **Submit a Pull Request** with a brief summary of additions.
 
 Refer to [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for generic awesome list guidelines.
